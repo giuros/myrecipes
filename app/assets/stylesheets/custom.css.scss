@@ -3,6 +3,14 @@ $navbar-default-bg: #0066B3;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.footer {
+  background-color: #0066B3;
+}
+
+.text-muted {
+  color: #fff;
+}
+
 .center {
   text-align: center;
 }
