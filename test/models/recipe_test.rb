@@ -9,7 +9,7 @@ class RecipeTest < ActiveSupport::TestCase
   
   test "recipe without chef shoul be invalid" do
     @recipe.chef_id = nil
-    asset_not @recipe.valid?
+    assert_not @recipe.valid?
   end
   
   test "recipe should be valid" do
